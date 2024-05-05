@@ -1,0 +1,73 @@
+body {
+  font-family: Poppins, sans-serif;
+  margin: 20px;
+  /* background-color: #e7eeff; */
+  background-image: url('assets/coding.jpg');
+  opacity: calc(80%);
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to bottom, #171a47, #fdf5fb);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(182, 41, 128, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+textarea,
+input {
+  width: 97%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #171a47;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #3734ed;
+}
+
+#output {
+  margin-top: 20px;
+  color: #555;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 100px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}

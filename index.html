@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aplikasi Enkripsi-Dekripsi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enkripsi-Dekripsi Asimetris</h1>
+
+      <label for="input">Teks:</label>
+      <textarea id="input" rows="4" cols="50"></textarea>
+
+      <label for="key">Kunci:</label>
+      <input type="text" id="key" />
+
+      <button onclick="encrypt()">Enkripsi</button>
+      <button onclick="decrypt()">Dekripsi</button>
+
+      <label for="output">Hasil:</label>
+      <textarea id="output" rows="4" cols="50" readonly></textarea>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+  <footer>
+      <p>&copy; Novia Nuraeni Ramadhani</p>
+    </div>
+  </footer>
+</html>
